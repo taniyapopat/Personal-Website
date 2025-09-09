@@ -18,16 +18,12 @@ export default function Portfolio() {
     <div className="min-h-screen w-full bg-black text-neutral-200">
       {/* Page wrapper */}
       <div className="mx-auto max-w-5xl px-6 sm:px-8">
-        {/* Header / Hero */}
+        {/* Header with Nav + Hero */}
         <header className="pt-20 sm:pt-28">
           {/* Navigation */}
           <nav className="flex justify-center gap-8 text-sm font-medium text-neutral-400">
-            <a href="#projects" className="hover:text-white transition">
-              Projects
-            </a>
-            <a href="#blogs" className="hover:text-white transition">
-              Blogs
-            </a>
+            <a href="#projects" className="hover:text-white transition">Projects</a>
+            <a href="#blogs" className="hover:text-white transition">Blogs</a>
           </nav>
 
           {/* Hero / Name */}
@@ -46,7 +42,7 @@ export default function Portfolio() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-4 text-center text-sm text-neutral-400 sm:text-base"
           >
-            ECDLP Associate@ United Airlines, Blogging everything Cyber
+            ECDLP Associate @ United Airlines — Blogging everything Cyber
           </motion.p>
 
           {/* Socials */}
@@ -66,6 +62,8 @@ export default function Portfolio() {
             <a
               href="https://www.linkedin.com/in/taniyapopat"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full p-2 text-neutral-300 transition hover:scale-110 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/20"
             >
               <Linkedin className="h-6 w-6" />
@@ -80,23 +78,24 @@ export default function Portfolio() {
           </motion.div>
         </header>
 
-        {/* About Me */}
+        {/* Main */}
         <main className="mt-16 pb-24">
+          {/* About Me */}
           <section className="mx-auto max-w-3xl">
             <h2 className="text-2xl font-semibold tracking-tight">About Me</h2>
 
             <div className="prose prose-invert prose-p:leading-relaxed mt-6 space-y-5 text-neutral-300">
               <p>
-                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associate at United Airlines <span role="img" aria-label="airplane">✈️</span>. I'm documenting my learning notes and projects on here. I have a keen interest in AI, and a proven track record in cybersecurity.
+                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associate at United Airlines <span role="img" aria-label="airplane">✈️</span>. I'm documenting my learning notes and projects here. I have a keen interest in AI, and a proven track record in cybersecurity.
               </p>
               <p>
-                Based on the number of grammar mistakes in my posts, you can tell how much ChatGPT is involved lol. 
+                Based on the number of grammar mistakes in my posts, you can tell how much ChatGPT is involved lol.
               </p>
               <p>
-                I like to keep myself relevant by solving Capture The Flags and doing new projects. I also keep myself busy by reading books, cooking new dishes and listening to self-improvement podcasts.
+                I stay sharp by solving Capture The Flags and doing new projects. I also read books, cook new dishes, and listen to self-improvement podcasts.
               </p>
               <p>
-                If you are reading this, I'd love to connect! 
+                If you're reading this, I'd love to connect!
               </p>
               <p className="text-sm text-neutral-400">
                 Don't forget to <a href="https://www.linkedin.com/in/taniyapopat" className="font-semibold text-emerald-400 hover:text-emerald-300 underline-offset-4 hover:underline">connect!</a>
