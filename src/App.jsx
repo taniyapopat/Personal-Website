@@ -76,8 +76,8 @@ export default function Portfolio() {
 
             <div className="prose prose-invert prose-p:leading-relaxed mt-6 space-y-5 text-neutral-300">
               <p>
-                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associat at United Airlines <span role="img" aria-label="airplane">✈️</span>. My expertise lies in Kubernetes and Golang,
-                where I focus on driving efficiency and scalability. I take great pride in sharing my insights through blogs—feel free to explore them!
+                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associate at United Airlines <span role="img" aria-label="airplane">✈️</span>.I’m focused on Cybersecurity—especially Cyber Defense—and I’m passionate about
+helping protect large-scale systems.
               </p>
               <p>
                 Beyond blogging, I curate a POC and Learnings section, showcasing innovative approaches to streamlining distributed systems like Kubernetes.
