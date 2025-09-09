@@ -35,7 +35,7 @@ export default function Portfolio() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-4 text-center text-sm text-neutral-400 sm:text-base"
           >
-            Cybersecurity | United Airlines | ECDLP | Cyber Defense
+            SRE | CKA | Kubernetes | Golang | Backend Engineering
           </motion.p>
 
           {/* Socials */}
@@ -45,31 +45,24 @@ export default function Portfolio() {
             transition={{ duration: 0.6, delay: 0.25 }}
             className="mt-8 flex items-center justify-center gap-6"
           >
-            {/* GitHub (add your URL to enable) */}
             <a
               href="#"
               aria-label="GitHub"
-              className="pointer-events-none opacity-40 rounded-full p-2 text-neutral-300"
-              title="Add your GitHub link here"
+              className="rounded-full p-2 text-neutral-300 transition hover:scale-110 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/20"
             >
               <Github className="h-6 w-6" />
             </a>
-
-            {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/taniyapopat"
+              href="#"
               aria-label="LinkedIn"
               className="rounded-full p-2 text-neutral-300 transition hover:scale-110 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/20"
             >
               <Linkedin className="h-6 w-6" />
             </a>
-
-            {/* X/Twitter (add your URL to enable) */}
             <a
               href="#"
               aria-label="X (Twitter)"
-              className="pointer-events-none opacity-40 rounded-full p-2 text-neutral-300"
-              title="Add your X/Twitter link here"
+              className="rounded-full p-2 text-neutral-300 transition hover:scale-110 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/20"
             >
               <XIcon className="h-6 w-6" />
             </a>
@@ -83,23 +76,21 @@ export default function Portfolio() {
 
             <div className="prose prose-invert prose-p:leading-relaxed mt-6 space-y-5 text-neutral-300">
               <p>
-                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya Popat, an ECDLP Associate in United Airlines’
-                Digital Technology organization. I’m focused on Cybersecurity—especially Cyber Defense—and I’m passionate about
-                helping protect large-scale systems. <span role="img" aria-label="airplane">✈️</span>
+                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, a 22-year-old Associate SRE, currently
+                contributing remotely at CloudRaft <span role="img" aria-label="sailboat">⛵</span>. My expertise lies in Kubernetes and Golang,
+                where I focus on driving efficiency and scalability. I take great pride in sharing my insights through blogs—feel free to explore them!
               </p>
               <p>
-                I enjoy sharing what I’m learning and curating proofs-of-concept, making complex security topics approachable.
-                Recently I’ve been hands-on with cloud security fundamentals, detection concepts, and a bit of automation.
+                Beyond blogging, I curate a POC and Learnings section, showcasing innovative approaches to streamlining distributed systems like Kubernetes.
               </p>
               <p>
-                Outside of work, I love connecting with other early-career security folks, swapping resources, and exploring
-                how AI can assist defenders.
+                My current focus is on transforming SRE practices through unified toolsets, advancing toward Platform Engineering. I'm also exploring AI agents and their integration with SRE tools to unlock new possibilities.
               </p>
               <p>
-                If you’re in security or just curious about it, I’d love to connect and exchange ideas.
+                If you're passionate about this field, currently exploring similar areas, or eager to learn, I'd love to connect and exchange ideas.
               </p>
               <p className="text-sm text-neutral-400">
-                Don’t forget to <a href="#contact" className="font-semibold text-emerald-400 hover:text-emerald-300 underline-offset-4 hover:underline">connect!</a>
+                Don't forget to <a href="#contact" className="font-semibold text-emerald-400 hover:text-emerald-300 underline-offset-4 hover:underline">connect!</a>
               </p>
             </div>
           </section>
