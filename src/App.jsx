@@ -76,8 +76,7 @@ export default function Portfolio() {
 
             <div className="prose prose-invert prose-p:leading-relaxed mt-6 space-y-5 text-neutral-300">
               <p>
-                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associate at United Airlines <span role="img" aria-label="airplane">✈️</span>. I’m focused on Cybersecurity—especially Cyber Defense—and I’m passionate about
-helping protect large-scale systems.
+                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associate at United Airlines <span role="img" aria-label="airplane">✈️</span>. I'm documenting my learning notes and projects on here. I have a keen interest in AI, and a proven track record in cybersecurity.
               </p>
               <p>
               As a part of my rotational program, I have completed rotations on the Incident Response, Digital Risk and Applicaion Security Teams. 
