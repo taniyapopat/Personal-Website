@@ -79,13 +79,13 @@ export default function Portfolio() {
                 Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associate at United Airlines <span role="img" aria-label="airplane">✈️</span>. I'm documenting my learning notes and projects on here. I have a keen interest in AI, and a proven track record in cybersecurity.
               </p>
               <p>
-              As a part of my rotational program, I have completed rotations on the Incident Response, Digital Risk and Applicaion Security Teams. 
+              Based on the number of grammar mistakes in my posts, you can tell how much ChatGPT is involved lol. 
               </p>
               <p>
-                My current focus is on improving my Cyber Defense Skills. I'm also exploring the development of AI in security.
+              I like to keep myself relevant by solving Capture The Flags and doing new projects. I also keep myself busy by reading books, cooking new dishes and listening to self-improvement podcasts.
               </p>
               <p>
-                If you're passionate about this field or eager to learn, I'd love to connect! 
+              If you are reading this, I'd love to connect! 
               </p>
               <p className="text-sm text-neutral-400">
                 Don't forget to <a href="https://www.linkedin.com/in/taniyapopat" className="font-semibold text-emerald-400 hover:text-emerald-300 underline-offset-4 hover:underline">connect!</a>
