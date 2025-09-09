@@ -53,7 +53,7 @@ export default function Portfolio() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/taniyapopat"
               aria-label="LinkedIn"
               className="rounded-full p-2 text-neutral-300 transition hover:scale-110 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/20"
             >
@@ -89,7 +89,7 @@ helping protect large-scale systems.
                 If you're passionate about this field or eager to learn, I'd love to connect! 
               </p>
               <p className="text-sm text-neutral-400">
-                Don't forget to <a href="#contact" className="font-semibold text-emerald-400 hover:text-emerald-300 underline-offset-4 hover:underline">connect!</a>
+                Don't forget to <a href="https://www.linkedin.com/in/taniyapopat" className="font-semibold text-emerald-400 hover:text-emerald-300 underline-offset-4 hover:underline">connect!</a>
               </p>
             </div>
           </section>
