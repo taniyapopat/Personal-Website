@@ -35,7 +35,7 @@ export default function Portfolio() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-4 text-center text-sm text-neutral-400 sm:text-base"
           >
-            SRE | CKA | Kubernetes | Golang | Backend Engineering
+           ECDLP Associate@ United Airlines, Blogging everything Cyber
           </motion.p>
 
           {/* Socials */}
@@ -76,17 +76,17 @@ export default function Portfolio() {
 
             <div className="prose prose-invert prose-p:leading-relaxed mt-6 space-y-5 text-neutral-300">
               <p>
-                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associate at United Airlines <span role="img" aria-label="airplane">✈️</span>.I’m focused on Cybersecurity—especially Cyber Defense—and I’m passionate about
+                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associate at United Airlines <span role="img" aria-label="airplane">✈️</span>. I’m focused on Cybersecurity—especially Cyber Defense—and I’m passionate about
 helping protect large-scale systems.
               </p>
               <p>
-                Beyond blogging, I curate a POC and Learnings section, showcasing innovative approaches to streamlining distributed systems like Kubernetes.
+              As a part of my rotational program, I have completed rotations on the Incident Response, Digital Risk and Applicaion Security Teams. 
               </p>
               <p>
-                My current focus is on transforming SRE practices through unified toolsets, advancing toward Platform Engineering. I'm also exploring AI agents and their integration with SRE tools to unlock new possibilities.
+                My current focus is on improving my Cyber Defense Skills. I'm also exploring the development of AI in security.
               </p>
               <p>
-                If you're passionate about this field, currently exploring similar areas, or eager to learn, I'd love to connect and exchange ideas.
+                If you're passionate about this field or eager to learn, I'd love to connect! 
               </p>
               <p className="text-sm text-neutral-400">
                 Don't forget to <a href="#contact" className="font-semibold text-emerald-400 hover:text-emerald-300 underline-offset-4 hover:underline">connect!</a>
