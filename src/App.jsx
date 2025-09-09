@@ -18,14 +18,23 @@ export default function Portfolio() {
     <div className="min-h-screen w-full bg-black text-neutral-200">
       {/* Page wrapper */}
       <div className="mx-auto max-w-5xl px-6 sm:px-8">
-        {/* Header / Hero */}
-        <header className="pt-20 sm:pt-28">
-          <motion.h1
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center text-4xl font-extrabold tracking-tight sm:text-6xl"
-          >
+  {/* Navigation */}
+  <nav className="flex justify-center gap-8 text-sm font-medium text-neutral-400">
+    <a href="#projects" className="hover:text-white transition">
+      Projects
+    </a>
+    <a href="#blogs" className="hover:text-white transition">
+      Blogs
+    </a>
+  </nav>
+
+  {/* Hero / Name */}
+  <motion.h1
+    initial={{ opacity: 0, y: 12 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6 }}
+    className="mt-8 text-center text-4xl font-extrabold tracking-tight sm:text-6xl"
+  >
             Taniya Popat
           </motion.h1>
 
