@@ -76,8 +76,7 @@ export default function Portfolio() {
 
             <div className="prose prose-invert prose-p:leading-relaxed mt-6 space-y-5 text-neutral-300">
               <p>
-                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, a 22-year-old Associate SRE, currently
-                contributing remotely at CloudRaft <span role="img" aria-label="sailboat">⛵</span>. My expertise lies in Kubernetes and Golang,
+                Hi there! <span role="img" aria-label="wave">👋</span> I'm Taniya, currently an ECDLP associat at United Airlines <span role="img" aria-label="airplane">✈️</span>. My expertise lies in Kubernetes and Golang,
                 where I focus on driving efficiency and scalability. I take great pride in sharing my insights through blogs—feel free to explore them!
               </p>
               <p>
